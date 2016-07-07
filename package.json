@@ -1,7 +1,7 @@
 {
     "name": "theme-panda",
     "displayName": "Panda",
-    "description": "color theme",
+    "description": "Panda syntax theme for Visual Studio Code.",
     "version": "0.0.1",
     "publisher": "tinkertrain",
     "engines": {
