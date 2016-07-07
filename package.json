@@ -1,0 +1,22 @@
+{
+    "name": "theme-panda",
+    "displayName": "Panda",
+    "description": "color theme",
+    "version": "0.0.1",
+    "publisher": "tinkertrain",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Panda Syntax",
+                "uiTheme": "vs-dark",
+                "path": "./themes/panda-syntax.tmTheme"
+            }
+        ]
+    }
+}
