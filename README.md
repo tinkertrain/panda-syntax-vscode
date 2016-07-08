@@ -1,4 +1,4 @@
-![Panda Logo](https://raw.githubusercontent.com/tinkertrain/panda-syntax-vscode/master/panda.jpg)
+![Panda Logo](https://raw.githubusercontent.com/tinkertrain/panda-syntax-vscode/master/cover.jpg)
 
 A _Superminimal_, _dark_ Syntax Theme. This is the latest version of the **Panda Syntax** theme. It's a _dark_ syntax theme crafted especially for [Visual Code](https://code.visualstudio.com/), with subtle colors that are meant to be easy on the eyes.
 
