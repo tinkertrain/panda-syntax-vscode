@@ -2,7 +2,7 @@
     "name": "theme-panda",
     "displayName": "Panda",
     "description": "Panda syntax theme for Visual Studio Code.",
-    "version": "0.0.1",
+    "version": "0.3.0",
     "publisher": "tinkertrain",
     "engines": {
         "vscode": "^1.0.0"
@@ -10,6 +10,15 @@
     "categories": [
         "Themes"
     ],
+    "icon": "icon.png",
+    "preview": true,
+    "galleryBanner": {
+        "color": "#EEEEEE"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/tinkertrain/panda-syntax-vscode"
+    },
     "contributes": {
         "themes": [
             {
