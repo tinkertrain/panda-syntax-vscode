@@ -1,7 +1,7 @@
 {
   "$schema": "vscode://schemas/color-theme",
   "author": "Siamak Mokhtari, Extended by Dan Hedgecock",
-  "name": "Panda Theme Extended",
+  "name": "Panda Syntax",
   "colorSpaceName": "sRGB",
   "semanticClass": "theme.dark.sublime_panda_syntax",
   "tokenColors": [

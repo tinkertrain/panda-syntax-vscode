@@ -10,7 +10,9 @@
   "scripts": {
     "build": "node build.js"
   },
-  "categories": ["Themes"],
+  "categories": [
+    "Themes"
+  ],
   "icon": "assets/panda.png",
   "homepage": "https://github.com/tinkertrain/panda-syntax-vscode",
   "galleryBanner": {
