@@ -1,0 +1,191 @@
+$schema: vscode://schemas/color-theme
+author: Siamak Mokhtari, Extended by Dan Hedgecock
+name: Panda Syntax
+colorSpaceName: sRGB
+semanticClass: theme.dark.sublime_panda_syntax
+tokenColors:
+
+# -----------------------------------------------------------------------------
+# Comments
+# -----------------------------------------------------------------------------
+# Generic <comment> matches
+- scope: comment
+  settings:
+    foreground: _light-midnight
+    fontStyle: italic
+
+# -----------------------------------------------------------------------------
+# Keywords
+# -----------------------------------------------------------------------------
+# Generic <keyword> matches
+- scope: keyword
+  settings:
+    foreground: _pink
+# 1. Language features like: import, return, if, else
+# 2. `new` keyword
+- scope: keyword.control, keyword.operator.new
+  settings:
+    foreground: _pink
+    fontStyle: italic
+# Make operators light gray by default
+- scope: keyword.operator
+  settings:
+    foreground: _very-light-gray
+# Make logical operators light orange, eg ||, ===
+- scope: keyword.operator.logical, keyword.operator.comparison
+  settings:
+    foreground: _light-orange
+
+# -----------------------------------------------------------------------------
+# Storage
+# -----------------------------------------------------------------------------
+# Generic <storage> matches
+- scope: storage
+  settings:
+    foreground: _orange
+
+# -----------------------------------------------------------------------------
+# Constants
+# -----------------------------------------------------------------------------
+# Generic <constant> matches
+- scope: constant
+  settings:
+    foreground: _orange
+# Makes true/false booleans, null, undefined blue
+- scope: constant.language
+  settings:
+    fontStyle: italic
+# Regex, string escape `\`
+- scope: constant.character.escape
+  settings:
+    foreground: _blue
+
+# -----------------------------------------------------------------------------
+# Variables && Parameters
+# -----------------------------------------------------------------------------
+# Generic <variable> matches
+- scope: variable
+  settings:
+    foreground: _very-light-gray
+# Function parameters
+- scope: variable.parameter
+  settings:
+    foreground: _contrast-gray
+    fontStyle: italic
+# Destructuring assignment variables
+- scope: meta.object-binding-pattern-variable.js variable
+  settings:
+    foreground: _light-orange
+# Special treatment for CONSTANT variables and this, variable interpolation matches?
+- scope: variable.other.constant, variable.language.this, variable.interpolation
+  settings:
+    foreground: _light-pink
+
+# -----------------------------------------------------------------------------
+# Objects
+# -----------------------------------------------------------------------------
+# Matches when an object is accessed.
+- scope: variable.other.object
+  settings:
+      foreground: _light-pink
+# The accessed property match
+- scope: variable.other.property
+  settings:
+    foreground: _very-light-gray
+
+# -----------------------------------------------------------------------------
+# Invalid
+# -----------------------------------------------------------------------------
+- scope: invalid.illegal
+  settings:
+    border-bottom: 1px dashed rgba(255, 44, 109, 0.5)
+- scope: invalid.deprecated
+  settings:
+    background-foreground: rgba(255, 44, 109, 0.62)
+
+# -----------------------------------------------------------------------------
+# Strings
+# -----------------------------------------------------------------------------
+# Generic string match
+- scope: string
+  settings:
+    foreground: _green
+
+# -----------------------------------------------------------------------------
+# Punctuation
+# -----------------------------------------------------------------------------
+# Template string ${}
+- scope: punctuation.definition.template-expression
+  settings:
+    foreground: _light-orange
+
+# -----------------------------------------------------------------------------
+# Support
+# -----------------------------------------------------------------------------
+# Generic support match
+- scope: support
+  settings:
+    foreground: _light-orange
+# Matches a Class reference when referenced later
+- scope: support.class
+  settings:
+    foreground: _light-orange
+# Matches: MODULE, MODULE.EXPORTS
+- scope: support.type.object.module.js
+  settings:
+    foreground: _purple
+# Matches: console.<LOG>
+- scope: support.function
+  settings:
+    foreground: _light-blue
+
+# -----------------------------------------------------------------------------
+# Entities
+# -----------------------------------------------------------------------------
+# Function names
+- scope: entity.name.function
+  settings:
+    foreground: _light-blue
+# Class extensions: eg extends `Component`
+- scope: entity.other.inherited-class
+  settings:
+    foreground: _light-pink
+# YAML keys
+- scope: entity.name.tag.yaml
+  settings:
+    foreground: _light-orange
+
+# -----------------------------------------------------------------------------
+# Meta
+# -----------------------------------------------------------------------------
+# JS Class/Method decorators -> @ punctuation is orange
+- scope: meta.decorator punctuation.decorator
+  settings:
+    foreground: _orange
+# JS Class/Method decorators -> blue function name
+- scope: meta.decorator variable
+  settings:
+    foreground: _light-blue
+
+# -----------------------------------------------------------------------------
+# Docker
+# -----------------------------------------------------------------------------
+# Docker file `FROM`
+- scope: keyword.other.special-method
+  settings:
+    foreground: _blue
+
+# -----------------------------------------------------------------------------
+# Styles (CSS/SCSS/LESS)
+# -----------------------------------------------------------------------------
+# Expressions like @import
+- scope: keyword.control.at-rule
+  settings:
+    foreground: _purple
+# Style !important declarations
+- scope: keyword.other.important
+  settings:
+    foreground: _light-red
+- scope: variable.interpolation
+  settings:
+    foreground: _pink

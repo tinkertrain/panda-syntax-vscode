@@ -1,0 +1,16 @@
+# -----------------------------------------------------------------------------
+# Regex Tokens
+# -----------------------------------------------------------------------------
+# Parent match
+- scope: string.regexp
+  settings:
+    foreground: _light-blue
+# Hit word boundary and back references
+- scope: string.regexp keyword, string.regexp keyword.control
+  settings:
+    foreground: _pink
+    fontStyle: normal
+# Operators like +, ?
+- scope: string.regexp keyword.operator
+  settings:
+    foreground: _light-pink

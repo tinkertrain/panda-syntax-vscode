@@ -1,0 +1,68 @@
+# Bold Text
+- scope: markup.bold
+  settings:
+    foreground: _orange
+    font-weight: bold
+- scope: punctuation.definition.bold.markdown
+  settings:
+    foreground: _light-orange
+    font-weight: bold
+- scope: markup.changed
+  settings:
+    foreground: _pink
+- scope: markup.deleted
+  settings:
+    foreground: _red
+# Italic Text
+- scope: markup.italic
+  settings:
+    foreground: _light-pink
+    fontStyle: italic
+- scope: punctuation.definition.italic.markdown
+  settings:
+    foreground: _pink
+    fontStyle: italic
+- scope: markup.inserted
+  settings:
+    foreground: _green
+# Headings Punctuation
+- scope: punctuation.definition.heading
+  settings:
+    foreground: _green
+# Headings Text
+- scope: entity.name.section.markdown
+  settings:
+    foreground: _contrast-gray
+# Block Quotes
+- scope: markup.quote
+  settings:
+    foreground: _orange
+# Inline code blocks: `code`
+- scope: markup.inline.raw
+  settings:
+    foreground: _green
+    fontStyle: italic
+# List punctuation: -
+- scope: beginning.punctuation.definition.list
+  settings:
+    foreground: _pink
+# Fenced code blocks
+- scope: markup.fenced_code.block.markdown punctuation.definition.markdown
+  settings:
+    foreground: _light-gray
+- scope: fenced_code.block.language
+  settings:
+    foreground: _contrast-gray
+    fontStyle: italic
+######################################################## Links
+- scope: string.other.link
+  settings:
+    foreground: _contrast-gray
+    fontStyle: normal
+- scope: meta.link.inline.markdown
+  settings:
+    foreground: _blue
+    fontStyle: italic
+- scope: text.html.markdown punctuation.definition.string
+  settings:
+    foreground: _light-orange
