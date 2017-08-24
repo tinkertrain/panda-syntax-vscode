@@ -1,0 +1,59 @@
+# -----------------------------------------------------------------------------
+# Gray Scale
+# -----------------------------------------------------------------------------
+_very-light-gray: '#E6E6E6' # Primary font color
+_very-light-gray-fade: '#FFFFFF'
+_lighter-gray: '#CDCDCD'
+_lighter-gray-fade: '#CDCDCD30'
+_contrast-gray: '#BBBBBB'
+_light-gray: '#757575'
+_light-midnight: '#676B79'
+_steel-gray: '#4E5260'
+_gray: '#373B41'
+_gray-fade: '#373B4199'
+_seal: '#31353a' # Light background
+_very-dark-gray: '#2a2c2d' # Dark background
+_charcoal: '#222223' # Use for borders between gray backgrounds
+
+# -----------------------------------------------------------------------------
+# Blue+Purple+Green
+# -----------------------------------------------------------------------------
+_blue: '#45A9F9'
+_light-blue: '#6FC1FF'
+_purple: '#B084EB'
+_purple-fade: '#B084EB60'
+_light-purple: '#BCAAFE'
+_green: '#19f9d8'
+_light-green: '#6FE7D2'
+_green-fade: '#19f9d899'
+# -----------------------------------------------------------------------------
+# Pink+Red+Orange
+# -----------------------------------------------------------------------------
+_red: '#FF2C6D'
+_light-red: '#FF4B82'
+_orange: '#FFB86C'
+_light-orange: '#FFCC95'
+_light-orange-fade: '#FFCC9560'
+_pink: '#FF75B5'
+_light-pink: '#FF9AC1'
+_light-pink-fade: '#FF9AC170'
+# -----------------------------------------------------------------------------
+# Element Colors
+# -----------------------------------------------------------------------------
+# Two backgrounds are used to provide contrast between section in editor.
+# Foreground color for normal font, use green for contrast fonts
+_background-dark: '#242526' # very-dark-gray
+_background-light: '#292A2B' # seal
+_foreground: '#E6E6E6' # very-light-gray
+_diff-green: '#19f9d866'
+_diff-red: '#FF4B8266'
+_merge-current-header: '#B084EB90' # purple with alpha
+_merge-current-content: '#B084EB40' # same purple less alpha
+_merge-incoming-header: '#45A9F990' # orange with alpha
+_merge-incoming-content: '#FFB86C40' # same orange less alpha
+
+# Transparent Hex Table: https://stackoverflow.com/questions/23201134/transparent-argb-hex-value
+# Island of Misfit Colors
+# _white: '#F3F3F3'
+# bright-pink: #FF429A
+# light-blue: #6FC1FF

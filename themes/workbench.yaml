@@ -1,0 +1,180 @@
+colors:
+  # -----------------------------------------------------------------------------
+  # Base Colors
+  # -----------------------------------------------------------------------------
+  # Defaults for editor elements, will be used if not set by a specific component
+  # focusBorder. TODO: widget.shadow, selection.background
+  foreground: _foreground
+  errorForeground: _light-red
+  # -----------------------------------------------------------------------------
+  # Activity Bar
+  # -----------------------------------------------------------------------------
+  # The far left sidebar (which can be hidden with: Toggle Activity Bar Visibility!)
+  activityBar.background: _charcoal
+  activityBar.foreground: _foreground
+  activityBar.border: _charcoal
+  activityBarBadge.background: _green
+  activityBarBadge.foreground: _background-dark
+  # -----------------------------------------------------------------------------
+  # Badges
+  # -----------------------------------------------------------------------------
+  badge.background: _light-blue
+  badge.foreground: _light-midnight
+  # -----------------------------------------------------------------------------
+  # ProgressBar
+  # -----------------------------------------------------------------------------
+  progressBar.background: _purple
+  # -----------------------------------------------------------------------------
+  # Buttons
+  # -----------------------------------------------------------------------------
+  button.background: _blue
+  button.foreground: _very-light-gray-fade
+  button.hoverBackground: _light-midnight
+  # -----------------------------------------------------------------------------
+  # Diff View
+  # -----------------------------------------------------------------------------
+  diffEditor.insertedTextBackground: _diff-green
+  # diffEditor.insertedTextBorder: NONE
+  diffEditor.removedTextBackground: _diff-red
+  # diffEditor.removedTextBorder: NONE
+  # -----------------------------------------------------------------------------
+  # Merge Conflicts
+  # -----------------------------------------------------------------------------
+  merge.currentHeaderBackground: _merge-current-header
+  merge.currentContentBackground: _merge-current-content
+  merge.incomingHeaderBackground: _merge-incoming-header
+  merge.incomingContentBackground: _merge-incoming-content
+  # merge.border: NONE
+  # -----------------------------------------------------------------------------
+  # Editor
+  # -----------------------------------------------------------------------------
+  editor.background: _background-light
+  editor.foreground: _foreground
+  editorCursor.foreground: _light-red
+  editorRuler.foreground: _purple-fade
+  editorBracketMatch.border: _green
+  editorCodeLens.foreground: _merge-incoming-content
+  editorWhitespace.foreground: _steel-gray
+  # editorBracketMatch.background: NONE
+  # Selection highlight settings are applied when text is selected, the highlight
+  # background will automatically highlight all other matches of the selected text
+  editor.selectionBackground: _merge-incoming-content
+  editor.inactiveSelectionBackground: _merge-incoming-content
+  editor.selectionHighlightBackground: _merge-incoming-content
+  # Word highlight settings are used when the cursor is inside of a symbol and will
+  # automatically highlight all other occurences of that symbol (with the option for
+  # different colors for read vs write access of symbol). Note that this overrides
+  # the selection background after double clicking a symbol to select, but not when
+  # selecting with keyboard
+  # TODO: Make these more subtle, they're distracting
+  editor.wordHighlightBackground: _light-orange-fade # During read access, like console.log
+  editor.wordHighlightStrongBackground: _light-pink-fade # During write access, like const =
+  # Find match settings are triggered by current find/replace dialong in top right
+  editor.findMatchBackground: _merge-current-header
+  editor.findMatchHighlightBackground: _merge-incoming-content
+  # editor.findRangeHighlightBackground: ??? What does this do ???
+  # Currently active line background
+  editor.lineHighlightBackground: _seal
+  # -----------------------------------------------------------------------------
+  # Extensions
+  # -----------------------------------------------------------------------------
+  extensionButton.prominentForeground: _very-light-gray-fade
+  extensionButton.prominentBackground: _blue
+  extensionButton.prominentHoverBackground: _light-midnight
+  # -----------------------------------------------------------------------------
+  # Errors
+  # -----------------------------------------------------------------------------
+  # Themes the squiggly+borders underneath linter errors
+  editorError.foreground: _light-red
+  editorError.border: _light-red
+  editorWarning.foreground: _light-orange
+  editorWarning.border: _light-orange
+  # -----------------------------------------------------------------------------
+  # Git Gutters
+  # -----------------------------------------------------------------------------
+  editorGutter.modifiedBackground: _light-orange
+  editorGutter.addedBackground: _green
+  editorGutter.deletedBackground: _light-red
+  # -----------------------------------------------------------------------------
+  # List
+  # -----------------------------------------------------------------------------
+  # List elements are inside the sidebar + command dropdown
+  # Mouse hover
+  list.hoverBackground: _background-light
+  list.hoverForeground: _lighter-gray
+
+  # Keyboard focus
+  list.focusBackground: _background-light
+  list.focusForeground: _green
+
+  # Selected item when the list container is in focus
+  list.activeSelectionBackground: _background-light
+  list.activeSelectionForeground: _green
+  # Selected item when the list container is NOT in focus
+  list.inactiveSelectionBackground: _background-light
+  list.inactiveSelectionForeground: _green
+  # The text that matches a search term inside of lists
+  list.highlightForeground: _light-blue
+  # -----------------------------------------------------------------------------
+  # Sidebar
+  # -----------------------------------------------------------------------------
+  # The side bar includes the file tree, search interface, git status and debug
+  # interfaces. It is located between the Activity Bar and the Editor.
+  sideBar.background: _background-dark
+  sideBar.foreground: _contrast-gray
+  sideBar.border: _charcoal
+  # -----------------------------------------------------------------------------
+  # Scrollbar
+  # -----------------------------------------------------------------------------
+  # The .shadow shows under headers in the sideBar and editor when scrolled.
+  # The scrollbarSlider themes BOTH the scrollbar in sideBar/editor AND the minimap
+  # overlays, so it's important to use transparent colors.
+  scrollbar.shadow: _charcoal
+  scrollbarSlider.background: _gray-fade
+  scrollbarSlider.activeBackground: _light-gray
+  scrollbarSlider.hoverBackground: _light-gray
+  # -----------------------------------------------------------------------------
+  # Status Bar
+  # -----------------------------------------------------------------------------
+  # Bar at bottom of editor with status updates
+  statusBar.background: _charcoal
+  statusBar.foreground: _foreground
+  statusBar.noFolderBackground: _background-dark
+  statusBar.noFolderForeground: _foreground
+  statusBar.debuggingBackground: _purple
+  statusBar.debuggingForeground: _foreground
+  # statusBar.border: NONE
+  # statusBarItem.prominentBackground: NONE
+  # statusBarItem.prominentHoverBackground: NONE
+  # -----------------------------------------------------------------------------
+  # Title Bar
+  # -----------------------------------------------------------------------------
+  titleBar.activeBackground: _background-dark
+  titleBar.activeForeground: _foreground
+  titleBar.inactiveBackground: _background-dark
+  titleBar.inactiveForeground: _foreground
+  # -----------------------------------------------------------------------------
+  # Tabs
+  # -----------------------------------------------------------------------------
+  tab.activeBackground: _background-light
+  tab.activeForeground: _green
+  tab.inactiveBackground: _background-dark
+  tab.inactiveForeground: _foreground
+  # -----------------------------------------------------------------------------
+  # Terminal
+  # -----------------------------------------------------------------------------
+  terminal.ansiBlue: _blue
+  terminal.ansiBrightBlack: _background-dark
+  terminal.ansiBrightBlue: _light-blue
+  terminal.ansiBrightCyan: _light-purple
+  terminal.ansiBrightGreen: _green
+  terminal.ansiBrightMagenta: _light-pink
+  terminal.ansiBrightRed: _red
+  terminal.ansiBrightWhite: _foreground
+  terminal.ansiBrightYellow: _light-orange
+  terminal.ansiCyan: _purple
+  terminal.ansiGreen: _green
+  terminal.ansiMagenta: _pink
+  terminal.ansiRed: _red
+  terminal.ansiWhite: _lighter-gray
+  terminal.ansiYellow: _orange
