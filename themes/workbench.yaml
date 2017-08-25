@@ -163,6 +163,8 @@ colors:
   # -----------------------------------------------------------------------------
   # Terminal
   # -----------------------------------------------------------------------------
+  terminalCursor.background: _foreground
+  terminalCursor.foreground: _light-red
   terminal.ansiBlue: _blue
   terminal.ansiBrightBlack: _background-dark
   terminal.ansiBrightBlue: _light-blue

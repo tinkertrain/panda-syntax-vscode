@@ -535,6 +535,8 @@
     "tab.activeForeground": "#19f9d8",
     "tab.inactiveBackground": "#242526",
     "tab.inactiveForeground": "#E6E6E6",
+    "terminalCursor.background": "#E6E6E6",
+    "terminalCursor.foreground": "#FF4B82",
     "terminal.ansiBlue": "#45A9F9",
     "terminal.ansiBrightBlack": "#242526",
     "terminal.ansiBrightBlue": "#6FC1FF",
