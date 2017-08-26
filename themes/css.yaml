@@ -1,3 +1,19 @@
 - scope: entity.name.tag.css
   settings:
     foreground: _red
+
+- scope: support.type.property-name.css
+  settings:
+    foreground: _very-light-gray
+
+- scope: variable.scss
+  settings:
+    foreground: _light-pink
+
+- scope: entity.name.tag.reference.scss
+  settings:
+    foreground: _red
+
+- scope: keyword.other.unit.rem.css, keyword.other.unit.vh.css, keyword.other.unit.px.css, keyword.other.unit.em.css, keyword.other.unit.deg.css, keyword.other.unit.percentage.css
+  settings:
+    foreground: _orange

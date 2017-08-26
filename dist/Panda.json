@@ -1,7 +1,7 @@
 {
   "$schema": "vscode://schemas/color-theme",
   "author": "Siamak Mokhtari, Extended by Dan Hedgecock",
-  "name": "Panda Syntax",
+  "name": "Panda Syntax – Beta",
   "colorSpaceName": "sRGB",
   "semanticClass": "theme.dark.sublime_panda_syntax",
   "tokenColors": [
@@ -21,8 +21,7 @@
     {
       "scope": "keyword.control, keyword.operator.new",
       "settings": {
-        "foreground": "#FF75B5",
-        "fontStyle": "italic"
+        "foreground": "#FF75B5"
       }
     },
     {
@@ -50,12 +49,6 @@
       }
     },
     {
-      "scope": "constant.language",
-      "settings": {
-        "fontStyle": "italic"
-      }
-    },
-    {
       "scope": "constant.character.escape",
       "settings": {
         "foreground": "#45A9F9"
@@ -70,8 +63,7 @@
     {
       "scope": "variable.parameter",
       "settings": {
-        "foreground": "#BBBBBB",
-        "fontStyle": "italic"
+        "foreground": "#BBBBBB"
       }
     },
     {
@@ -406,6 +398,30 @@
       "scope": "entity.name.tag.css",
       "settings": {
         "foreground": "#FF2C6D"
+      }
+    },
+    {
+      "scope": "support.type.property-name.css",
+      "settings": {
+        "foreground": "#E6E6E6"
+      }
+    },
+    {
+      "scope": "variable.scss",
+      "settings": {
+        "foreground": "#FF9AC1"
+      }
+    },
+    {
+      "scope": "entity.name.tag.reference.scss",
+      "settings": {
+        "foreground": "#FF2C6D"
+      }
+    },
+    {
+      "scope": "keyword.other.unit.rem.css, keyword.other.unit.vh.css, keyword.other.unit.px.css, keyword.other.unit.em.css, keyword.other.unit.deg.css, keyword.other.unit.percentage.css",
+      "settings": {
+        "foreground": "#FFB86C"
       }
     },
     {

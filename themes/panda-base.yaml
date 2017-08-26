@@ -1,6 +1,6 @@
 $schema: vscode://schemas/color-theme
 author: Siamak Mokhtari, Extended by Dan Hedgecock
-name: Panda Syntax
+name: Panda Syntax – Beta
 colorSpaceName: sRGB
 semanticClass: theme.dark.sublime_panda_syntax
 tokenColors:
@@ -26,7 +26,7 @@ tokenColors:
 - scope: keyword.control, keyword.operator.new
   settings:
     foreground: _pink
-    fontStyle: italic
+
 # Make operators light gray by default
 - scope: keyword.operator
   settings:
@@ -52,9 +52,9 @@ tokenColors:
   settings:
     foreground: _orange
 # Makes true/false booleans, null, undefined blue
-- scope: constant.language
-  settings:
-    fontStyle: italic
+# - scope: constant.language
+#   settings:
+#     fontStyle: italic
 # Regex, string escape `\`
 - scope: constant.character.escape
   settings:
@@ -71,7 +71,8 @@ tokenColors:
 - scope: variable.parameter
   settings:
     foreground: _contrast-gray
-    fontStyle: italic
+    # fontStyle: italic
+
 # Destructuring assignment variables
 - scope: meta.object-binding-pattern-variable.js variable
   settings:
