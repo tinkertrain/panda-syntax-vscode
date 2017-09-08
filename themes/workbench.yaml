@@ -76,6 +76,33 @@ colors:
   # Currently active line background
   editor.lineHighlightBackground: _seal
   # -----------------------------------------------------------------------------
+  # Widgets
+  # -----------------------------------------------------------------------------
+  # Widgets are feautures inside the main editor like snippets, autocomplete, in
+  # file find.
+  editorWidget.background: _very-dark-gray
+  editorWidget.border: _gray
+  # This sets the background for suggestions complete currently selected element
+  editorSuggestWidget.selectedBackground: _green-fade
+  editorHoverWidget.background: _seal
+  # -----------------------------------------------------------------------------
+  # Overview Ruler
+  # -----------------------------------------------------------------------------
+  # The overview ruler is the thin bar at the far right of the editor, it has
+  # decorations for git status and linter warnings
+  editorOverviewRuler.border: _transparent
+  # editorOverviewRuler.findMatchForeground: TODO
+  # editorOverviewRuler.rangeHighlightForeground: TODO
+  # editorOverviewRuler.selectionHighlightForeground: TODO
+  # editorOverviewRuler.wordHighlightForeground: TODO
+  # editorOverviewRuler.wordHighlightStrongForeground: TODO
+  editorOverviewRuler.modifiedForeground: _git-modified
+  editorOverviewRuler.addedForeground: _git-added
+  editorOverviewRuler.deletedForeground: _git-removed
+  editorOverviewRuler.errorForeground: _error
+  editorOverviewRuler.warningForeground: _warning
+  editorOverviewRuler.infoForeground: _info
+  # -----------------------------------------------------------------------------
   # Extensions
   # -----------------------------------------------------------------------------
   extensionButton.prominentForeground: _very-light-gray-fade
@@ -85,16 +112,16 @@ colors:
   # Errors
   # -----------------------------------------------------------------------------
   # Themes the squiggly+borders underneath linter errors
-  editorError.foreground: _light-red
-  editorError.border: _light-red
-  editorWarning.foreground: _light-orange
-  editorWarning.border: _light-orange
+  editorError.foreground: _error
+  editorError.border: _error
+  editorWarning.foreground: _warning
+  editorWarning.border: _warning
   # -----------------------------------------------------------------------------
   # Git Gutters
   # -----------------------------------------------------------------------------
-  editorGutter.modifiedBackground: _light-orange
-  editorGutter.addedBackground: _green
-  editorGutter.deletedBackground: _light-red
+  editorGutter.modifiedBackground: _git-modified
+  editorGutter.addedBackground: _git-added
+  editorGutter.deletedBackground: _git-removed
   # -----------------------------------------------------------------------------
   # List
   # -----------------------------------------------------------------------------
@@ -158,15 +185,17 @@ colors:
   # -----------------------------------------------------------------------------
   tab.activeBackground: _background-light
   tab.activeForeground: _green
+  tab.activeBorder: _green
   tab.inactiveBackground: _background-dark
   tab.inactiveForeground: _foreground
+  # tab.unfocusedActiveBorder: NONE
   # -----------------------------------------------------------------------------
   # Terminal
   # -----------------------------------------------------------------------------
   terminalCursor.background: _foreground
   terminalCursor.foreground: _light-red
   terminal.ansiBlue: _blue
-  terminal.ansiBrightBlack: _background-dark
+  terminal.ansiBrightBlack: _light-gray
   terminal.ansiBrightBlue: _light-blue
   terminal.ansiBrightCyan: _light-purple
   terminal.ansiBrightGreen: _green
