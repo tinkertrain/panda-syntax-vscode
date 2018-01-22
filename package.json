@@ -1,39 +1,44 @@
 {
-    "name": "theme-panda",
-    "displayName": "Panda Theme",
-    "description": "Panda Theme for Visual Studio Code.",
-    "version": "1.1.0",
-    "publisher": "tinkertrain",
-    "engines": {
-        "vscode": "^1.12.0"
-    },
-    "scripts": {
-        "build": "node build.js"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "icon": "assets/panda.png",
-    "homepage": "https://github.com/tinkertrain/panda-syntax-vscode",
-    "galleryBanner": {
-        "color": "#2a2c2d",
-        "theme": "dark"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/tinkertrain/panda-syntax-vscode"
-    },
-    "contributes": {
-        "themes": [
-            {
-                "label": "Panda Syntax",
-                "uiTheme": "vs-dark",
-                "path": "./dist/Panda.json"
-            }
-        ]
-    },
-    "devDependencies": {
-        "@crystal-ball/eslint-config-eloquence": "^1.0.0",
-        "js-yaml": "^3.8.4"
-    }
+	"name": "theme-panda",
+	"displayName": "Panda Theme",
+	"description": "Panda Theme for Visual Studio Code.",
+	"version": "1.2.0",
+	"publisher": "tinkertrain",
+	"engines": {
+		"vscode": "^1.20.0"
+	},
+	"scripts": {
+		"build": "node build.js"
+	},
+	"categories": [
+		"Themes"
+	],
+	"icon": "assets/panda.png",
+	"homepage": "https://github.com/tinkertrain/panda-syntax-vscode",
+	"galleryBanner": {
+		"color": "#2a2c2d",
+		"theme": "dark"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/tinkertrain/panda-syntax-vscode"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "Panda Syntax",
+				"uiTheme": "vs-dark",
+				"path": "./dist/Panda.json"
+			}
+		]
+	},
+	"devDependencies": {
+		"@crystal-ball/eslint-config-eloquence": "^1.0.0",
+		"js-yaml": "^3.8.4"
+	},
+	"__metadata": {
+		"id": "9764fb1f-aa45-4e65-a18e-705b3b00761c",
+		"publisherDisplayName": "Panda Theme",
+		"publisherId": "75da7fb3-a5a8-4f27-8083-e61b15b7b2a5"
+	}
 }
