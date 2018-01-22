@@ -1,7 +1,4 @@
-const {
-  writeFile,
-  readFileSync
-} = require("fs");
+const { writeFile, readFileSync } = require("fs");
 const yaml = require("js-yaml");
 
 // Panda theme color definition

@@ -17,6 +17,14 @@
   settings:
     foreground: _purple
 
+- scope: variable.language.this.js
+  settings:
+    fontStyle: italic
+
+- scope: support.class.console.js
+  settings:
+    fontStyle: italic
+
 # - scope: variable.other.readwrite.alias.js.jsx
 #   settings:
 #     foreground: _contrast-gray

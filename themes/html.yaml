@@ -1,10 +1,10 @@
 # -----------------------------------------------------------------------------
-# HTML, Jade
+# HTML, Jade, XML
 # -----------------------------------------------------------------------------
 - scope: meta.tag.structure.any.html, meta.tag.other.html, entity.name.tag.html, meta.tag.metadata.script.html, entity.name.tag.jade
   settings:
     foreground: _red
 
-- scope: entity.name.tag.inline.any.html, entity.name.tag.other.html, entity.name.tag.block.any.html
+- scope: entity.name.tag.inline.any.html, entity.name.tag.other.html, entity.name.tag.block.any.html, entity.name.tag.localname.xml
   settings:
     foreground: _red
