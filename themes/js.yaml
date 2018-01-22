@@ -9,7 +9,7 @@
   settings:
     foreground: _light-pink
 
-- scope: keyword.control.from.js.jsx
+- scope: keyword.control.from.js
   settings:
     foreground: _light-pink
 
@@ -24,11 +24,11 @@
 # -----------------------------------------------------------------------------
 # JSX
 # -----------------------------------------------------------------------------
-- scope: entity.name.tag.js.jsx, support.class.component.js.jsx
+- scope: entity.name.tag.js, support.class.component.js
   settings:
     foreground: _red
 
-- scope: variable.language.super.js.jsx
+- scope: variable.language.super.js
   settings:
     foreground: _blue
 
