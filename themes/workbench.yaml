@@ -123,6 +123,10 @@ colors:
   editorGutter.addedBackground: _git-added
   editorGutter.deletedBackground: _git-removed
   # -----------------------------------------------------------------------------
+  # Git Decoration
+  # -----------------------------------------------------------------------------
+  gitDecoration.ignoredResourceForeground: _git-ignored
+  # -----------------------------------------------------------------------------
   # List
   # -----------------------------------------------------------------------------
   # List elements are inside the sidebar + command dropdown
