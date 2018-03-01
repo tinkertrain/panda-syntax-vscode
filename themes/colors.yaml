@@ -56,6 +56,7 @@ _transparent: '#00000000'
 _git-modified: '#FFCC95' # light-orange
 _git-added: '#19f9d8' # green
 _git-removed: '#FF4B82' # light-red
+_git-ignored: '#757575' # light-grey
 # Linter Colors
 _error: '#FF4B82' # light-red
 _warning: '#FFCC95' # light-orange
