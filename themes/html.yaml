@@ -8,3 +8,7 @@
 - scope: entity.name.tag.inline.any.html, entity.name.tag.other.html, entity.name.tag.block.any.html, entity.name.tag.localname.xml
   settings:
     foreground: _red
+
+- scope: entity.name.tag.xml, meta.tag.xml
+  settings:
+    foreground: _red
