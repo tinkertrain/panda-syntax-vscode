@@ -395,7 +395,7 @@
       }
     },
     {
-      "scope": "keyword.control.from.js.jsx",
+      "scope": "keyword.control.from.js",
       "settings": {
         "foreground": "#FF9AC1"
       }
@@ -407,13 +407,25 @@
       }
     },
     {
-      "scope": "entity.name.tag.js.jsx, support.class.component.js.jsx",
+      "scope": "variable.language.this.js",
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "support.class.console.js",
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "entity.name.tag.js, support.class.component.js",
       "settings": {
         "foreground": "#FF2C6D"
       }
     },
     {
-      "scope": "variable.language.super.js.jsx",
+      "scope": "variable.language.super.js",
       "settings": {
         "foreground": "#45A9F9"
       }
@@ -425,9 +437,27 @@
       }
     },
     {
-      "scope": "entity.name.tag.inline.any.html, entity.name.tag.other.html, entity.name.tag.block.any.html",
+      "scope": "entity.name.tag.inline.any.html, entity.name.tag.other.html, entity.name.tag.block.any.html, entity.name.tag.localname.xml",
       "settings": {
         "foreground": "#FF2C6D"
+      }
+    },
+    {
+      "scope": "entity.name.tag.xml, meta.tag.xml",
+      "settings": {
+        "foreground": "#FF2C6D"
+      }
+    },
+    {
+      "scope": "source.vue, entity.name.tag.pug, meta.tag.other",
+      "settings": {
+        "foreground": "#FF2C6D"
+      }
+    },
+    {
+      "scope": "text.pug",
+      "settings": {
+        "foreground": "#FFFFFF"
       }
     },
     {
@@ -521,7 +551,7 @@
     "activityBarBadge.background": "#19f9d8",
     "activityBarBadge.foreground": "#242526",
     "badge.background": "#6FC1FF",
-    "badge.foreground": "#676B79",
+    "badge.foreground": "#242526",
     "progressBar.background": "#B084EB",
     "button.background": "#45A9F9",
     "button.foreground": "#FFFFFF",
@@ -568,6 +598,7 @@
     "editorGutter.modifiedBackground": "#FFCC95",
     "editorGutter.addedBackground": "#19f9d8",
     "editorGutter.deletedBackground": "#FF4B82",
+    "gitDecoration.ignoredResourceForeground": "#757575",
     "list.hoverBackground": "#292A2B",
     "list.hoverForeground": "#CDCDCD",
     "list.focusBackground": "#292A2B",
