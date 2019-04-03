@@ -1,5 +1,5 @@
 # -----------------------------------------------------------------------------
-# HTML, Jade, XML
+# HTML, Jade, XML, Vue
 # -----------------------------------------------------------------------------
 - scope: meta.tag.structure.any.html, meta.tag.other.html, entity.name.tag.html, meta.tag.metadata.script.html, entity.name.tag.jade
   settings:
@@ -12,3 +12,11 @@
 - scope: entity.name.tag.xml, meta.tag.xml
   settings:
     foreground: _red
+
+- scope: source.vue, entity.name.tag.pug, meta.tag.other
+  settings:
+    foreground: _red
+
+- scope: text.pug
+  settings:
+    foreground: _very-light-gray-fade
