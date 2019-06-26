@@ -113,9 +113,9 @@ colors:
   # -----------------------------------------------------------------------------
   # Themes the squiggly+borders underneath linter errors
   editorError.foreground: _error
-  editorError.border: _error
+  editorError.border: _background-light
   editorWarning.foreground: _warning
-  editorWarning.border: _warning
+  editorWarning.border: _background-light
   # -----------------------------------------------------------------------------
   # Git Gutters
   # -----------------------------------------------------------------------------
