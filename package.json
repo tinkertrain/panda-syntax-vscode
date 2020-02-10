@@ -34,7 +34,7 @@
 	},
 	"devDependencies": {
 		"@crystal-ball/eslint-config-eloquence": "^1.0.0",
-		"js-yaml": "^3.8.4"
+		"js-yaml": "^3.13.1"
 	},
 	"__metadata": {
 		"id": "9764fb1f-aa45-4e65-a18e-705b3b00761c",
