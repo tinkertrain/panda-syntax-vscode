@@ -35,6 +35,10 @@ tokenColors:
 - scope: keyword.operator.logical, keyword.operator.comparison
   settings:
     foreground: _light-orange
+# Make Rust operators pink: &, ::, =>, etc.
+- scope: keyword.operator.misc, keyword.operator.sigil
+  settings:
+    foreground: _pink
 
 # -----------------------------------------------------------------------------
 # Storage
@@ -190,3 +194,12 @@ tokenColors:
 - scope: variable.interpolation
   settings:
     foreground: _pink
+
+# -----------------------------------------------------------------------------
+# Name of type (struct, class, etc.)
+# -----------------------------------------------------------------------------
+# Generic name of type match
+- scope: entity.name.type
+  settings:
+    foreground: _green
+    fontStyle: italic
