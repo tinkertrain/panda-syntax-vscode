@@ -37,6 +37,12 @@
       }
     },
     {
+      "scope": "keyword.operator.misc, keyword.operator.sigil",
+      "settings": {
+        "foreground": "#FF75B5"
+      }
+    },
+    {
       "scope": "storage",
       "settings": {
         "foreground": "#FFB86C"
@@ -190,6 +196,13 @@
       "scope": "variable.interpolation",
       "settings": {
         "foreground": "#FF75B5"
+      }
+    },
+    {
+      "scope": "entity.name.type",
+      "settings": {
+        "foreground": "#19f9d8",
+        "fontStyle": "italic"
       }
     },
     {
@@ -592,9 +605,9 @@
     "extensionButton.prominentBackground": "#45A9F9",
     "extensionButton.prominentHoverBackground": "#676B79",
     "editorError.foreground": "#FF4B82",
-    "editorError.border": "#FF4B82",
+    "editorError.border": "#292A2B",
     "editorWarning.foreground": "#FFCC95",
-    "editorWarning.border": "#FFCC95",
+    "editorWarning.border": "#292A2B",
     "editorGutter.modifiedBackground": "#FFCC95",
     "editorGutter.addedBackground": "#19f9d8",
     "editorGutter.deletedBackground": "#FF4B82",
