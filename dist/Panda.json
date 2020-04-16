@@ -581,7 +581,7 @@
     "editorRuler.foreground": "#B084EB60",
     "editorBracketMatch.border": "#19f9d8",
     "editorCodeLens.foreground": "#FFB86C40",
-    "editorWhitespace.foreground": "#4E5260",
+    "editorWhitespace.foreground": "#3E4250",
     "editor.selectionBackground": "#FFB86C40",
     "editor.inactiveSelectionBackground": "#FFB86C40",
     "editor.selectionHighlightBackground": "#FFB86C40",
