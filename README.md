@@ -46,19 +46,3 @@ If you would like to create a new Issue or PR, please do so in:
 5. Panda sex is awkward. Naps are much more fun.
 
 > Picture & Contents from: https://dribbble.com/shots/2354579-Panda-Icon-Party.
-
-<!--<h1 align="center">
-  VSCode Panda<br />
-  <img width="500" src="https://cdn.rawgit.com/tinkertrain/panda-syntax-vscode/master/assets/cover.jpg" alt="Panda"/>
-</h1>
-
-This is the very amazing [Panda Theme](https://github.com/PandaTheme) from Siamak
-Mokhtari adapted for VSCode. The theme includes targeted theming for syntax tokens
-as well as theming for the surrounding editor.
-
-![Screenshot](https://raw.githubusercontent.com/tinkertrain/panda-syntax-vscode/master/assets/screenshot.png)
-
-## Contributing
-Contributions are welcome! The Panda theme colors are in `themes/colors.yaml`.
-Available elements to style are in the
-[Theme Color Reference](https://code.visualstudio.com/docs/getstarted/theme-color-reference)-->
