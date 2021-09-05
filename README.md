@@ -26,9 +26,9 @@ Panda Syntax Theme Supported Packages `language-*` and optimized for many langua
 ---
 
 ## 📞 Recommended
-Panda Created for Editors and Terminals. [Panda Project](http://panda.siamak.work).
+Panda Created for Editors and Terminals. [Panda Project](http://panda.siamak.me).
 
-[![Panda Ports](https://raw.githubusercontent.com/siamak/atom-panda-syntax/master/screenshots/ports.jpg)](http://panda.siamak.work)
+[![Panda Ports](https://raw.githubusercontent.com/siamak/atom-panda-syntax/master/screenshots/ports.jpg)](http://panda.siamak.me)
 
 ---
 
