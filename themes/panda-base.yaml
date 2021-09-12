@@ -55,6 +55,11 @@ tokenColors:
 - scope: constant
   settings:
     foreground: _orange
+# Makes enum members same as constant
+# Follow the official theme Light (Visual Studio) & Dark (Visual Studio)
+- scope: variable.other.enummember
+  settings:
+    foreground: _orange
 # Makes true/false booleans, null, undefined blue
 # - scope: constant.language
 #   settings:

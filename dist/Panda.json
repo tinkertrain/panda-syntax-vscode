@@ -55,6 +55,12 @@
       }
     },
     {
+      "scope": "variable.other.enummember",
+      "settings": {
+        "foreground": "#FFB86C",
+      }
+    },
+    {
       "scope": "constant.character.escape",
       "settings": {
         "foreground": "#45A9F9"
