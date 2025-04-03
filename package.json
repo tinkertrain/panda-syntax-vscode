@@ -14,14 +14,14 @@
 		"Themes"
 	],
 	"icon": "assets/panda.png",
-	"homepage": "https://github.com/tinkertrain/panda-syntax-vscode",
+	"homepage": "https://github.com/siamak/panda-syntax-vscode",
 	"galleryBanner": {
 		"color": "#2a2c2d",
 		"theme": "dark"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/tinkertrain/panda-syntax-vscode"
+		"url": "https://github.com/siamak/panda-syntax-vscode"
 	},
 	"contributes": {
 		"themes": [
